@@ -20,5 +20,8 @@ tubone's personal Note with Vue.js, Nuxt.js, Vuepress and Algolia.
 
 [Note](https://note.tubone-project24.xyz/)
 
+### SlideShare
+
+[SlideShare](https://www.slideshare.net/tubone24/)
 
 ## Repos
