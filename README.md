@@ -1,5 +1,21 @@
 # [tubone24.github.io](https://tubone24.github.io)
 
+## About me
+
+I'm a Software developer with over 4+ years and latest trying to tech lead with engineering teams. Expert at AWS by using Server-less architecture.
+
+Also master of Server-side API and Batch with Python.
+
+Additionally, experienced data science with Python and AWS.
+
+Have a AWS Certified Solution Architect – Professional.
+
+Further more, I'm amateur photographer, Uploading for 500px.com
+
+And also, I'm amateur DTM composer and Guitarist (collaborating with chocoholic).
+
+Nice to meet you and I look forward to collaborating with you.
+
 ## Social
 
 ### Portfolio
