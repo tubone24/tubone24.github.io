@@ -2,7 +2,7 @@
 
 ## About me
 
-I'm a Software developer with over 4+ years and latest trying to tech lead with engineering teams. Expert at AWS by using Server-less architecture.
+I'm a Software and Infrastructure developer with over 4+ years, and I've been leading some engineering teams in recent years.  Expert at AWS by using Server-less architecture.
 
 Also master of Server-side API and Batch with Python.
 
