@@ -17,7 +17,7 @@ type PageProps = {
   description: string
 }
 
-const GitHubRepoCard = (props: PageProps) => (
+const GitHubRepoCard = (props: any) => (
   <StyledGitHubRepo>
   <div class="result">
     <div>

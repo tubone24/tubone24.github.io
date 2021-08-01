@@ -6,7 +6,7 @@ type PageProps = {
 }
 
 export default class GitHubRepoList extends Component {
-  constructor(props: PageProps) {
+  constructor(props: any) {
     super(props);
     this.state = { results: [], username: props.username };
   }

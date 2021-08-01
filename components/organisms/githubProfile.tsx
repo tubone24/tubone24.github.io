@@ -9,18 +9,18 @@ type PageProps = {
   username: string
 }
 
-const GitHubProfile = (props: PageProps): JSX.Element => {
+const GitHubProfile = (props: any) => {
   const username = props.username;
   console.log(username)
   return (
     <>
-      <p align="left">
+      <p>
         <h2>Summary GitHub stats</h2>
         <GitHubStatsCard username={username}/>
         <GithubProfileSummaryCard username={username}/>
         <GithubStatsCardStreak username={username} />
       </p>
-      <p align="left">
+      <p>
         <GithubStatsCardMostLang username={username} />
       </p>
       <div>
