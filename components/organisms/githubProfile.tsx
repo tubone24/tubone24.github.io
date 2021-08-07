@@ -12,7 +12,6 @@ interface Props {
 
 const GitHubProfile = (props: Props) => {
   console.log(props)
-  console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
   let username
   if (Array.isArray(props.username)) {
     username = props.username[0]
