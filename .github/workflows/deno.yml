@@ -25,8 +25,10 @@ jobs:
       - name: Install Dext
         run: deno install --allow-read --allow-write --allow-env --allow-net --allow-run --unstable -f -n dext https://deno.land/x/dext@0.10.5/cli.ts
 
+      - name: Install Dependencies
+        run: npm install
       - name: Compile Tailwind
-        run: npm install & npm run build
+        run: npm run build
 
       - name: Dext build
         run: dext build
