@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+
+      - name: Setup Deno
+        # uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e9833173669
+        with:
+          deno-version: v1.9.2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install Dext
+        run: deno install --allow-read --allow-write --allow-env --allow-net --allow-run --unstable -f -n dext https://deno.land/x/dext@0.10.5/cli.ts
+        
+      - name: Compile Tailwind
+        run: npm install & npm run build
+
+      - name: Dext build
+        run: dext build
