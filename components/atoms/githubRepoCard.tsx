@@ -3,7 +3,7 @@ import { h } from "../../deps.ts";
 type PageProps = {
   htmlUrl: string
   fullName: string
-  stargazersCount: string
+  stargazersCount: number
   description: string
 }
 

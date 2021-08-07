@@ -10,7 +10,9 @@ interface Props {
   username: string | string[]
 }
 
-const GitHubProfile = (props: PageProps<Props>) => {
+const GitHubProfile = (props: Props) => {
+  console.log(props)
+  console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
   let username
   if (Array.isArray(props.username)) {
     username = props.username[0]
@@ -31,6 +33,8 @@ const GitHubProfile = (props: PageProps<Props>) => {
       </p>
       <div>
         <h2>Most stargazers</h2>
+        {/*dext.tsはComponentsにPropsを渡せない。代わりにroutes値わたしができるが面倒なのでPReactのComponents Propsを生かしたままts-ignoreでごまかす*/}
+        {/*@ts-ignore*/}
         <GithubRepoList username="tubone24" />
       </div>
     </>

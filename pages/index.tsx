@@ -8,7 +8,7 @@ function IndexPage() {
       <Header />
       <main>
         <div class="flex flex-wrap items-stretch w-full relative">
-          aaaa
+
         </div>
       </main>
     </div>
