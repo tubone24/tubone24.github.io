@@ -15,6 +15,7 @@ interface Result {
   description: string
   full_name: string
   stargazers_count: number
+  updated_at: string
 }
 
 export default class GitHubRepoList extends Component<Props, IState> {
@@ -56,12 +57,12 @@ export default class GitHubRepoList extends Component<Props, IState> {
   render(props: Props, state: IState) {
     console.log(state.results)
     return (
-      <>
-        {state.results.map(result => (
-          <GithubRepoCard htmlUrl={result.html_url} description={result.description} fullName={result.full_name}
-                          stargazersCount={result.stargazers_count}/>
-        ))}
-      </>
+        <div class="container mx-auto">
+          {state.results.map((result, index) => (
+            <GithubRepoCard htmlUrl={result.html_url} description={result.description} fullName={result.full_name}
+                            stargazersCount={result.stargazers_count} index={index + 1} updatedAt={result.updated_at}/>
+          ))}
+        </div>
     )
   }
 }
