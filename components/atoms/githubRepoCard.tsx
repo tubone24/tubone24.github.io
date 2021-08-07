@@ -7,7 +7,7 @@ type PageProps = {
   description: string
 }
 
-const GitHubRepoCard = (props: any) => (
+const GitHubRepoCard = (props: PageProps) => (
   <div class="result">
     <div>
       <a href={props.htmlUrl} target="_blank">

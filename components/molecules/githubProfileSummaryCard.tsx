@@ -4,7 +4,7 @@ type PageProps = {
   username: string
 }
 
-export const GitHubProfileSummaryCard = (props: any) => {
+export const GitHubProfileSummaryCard = (props: PageProps) => {
   const username = props.username
   return (
     <img src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${username}&theme=vue`} alt={`${username}'s stats`}/>

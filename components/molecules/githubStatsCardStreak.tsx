@@ -4,7 +4,7 @@ type PageProps = {
   username: string
 }
 
-const GithubStatsCardStreak = (props: any) => {
+const GithubStatsCardStreak = (props: PageProps) => {
   const username = props.username;
   return (
   <img src={`https://github-readme-streak-stats.herokuapp.com/?user=${username}`} alt={`${username}'s stats`}/>

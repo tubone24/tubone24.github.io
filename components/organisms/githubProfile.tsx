@@ -4,13 +4,19 @@ import GithubProfileSummaryCard from "../molecules/githubProfileSummaryCard.tsx"
 import GithubStatsCardMostLang from "../molecules/githubStatsCardMostLang.tsx";
 import GithubStatsCardStreak from "../molecules/githubStatsCardStreak.tsx";
 import GithubRepoList from "../molecules/githubRepoList.tsx";
+import type { PageProps } from "../../deps.ts";
 
-type PageProps = {
-  username: string
+interface Props {
+  username: string | string[]
 }
 
-const GitHubProfile = (props: any) => {
-  const username = props.username;
+const GitHubProfile = (props: PageProps<Props>) => {
+  let username
+  if (Array.isArray(props.username)) {
+    username = props.username[0]
+  } else {
+    username = props.username
+  }
   console.log(username)
   return (
     <>
