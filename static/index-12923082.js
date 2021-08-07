@@ -1,0 +1,1 @@
+import{a as e,H as l}from"./header-491e4c50.js";function a(){return e("div",{class:"mx-auto max-w-screen-md px-6 sm:px-6 md:px-8"},e(l,null),e("main",null,e("div",{class:"flex flex-wrap items-stretch w-full relative"})))}export default a;//# sourceMappingURL=index-12923082.js.map
