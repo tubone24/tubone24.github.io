@@ -16,7 +16,7 @@ const UserPage = (props: PageProps) => {
       <Header />
       <main>
         <div class="flex flex-wrap items-stretch w-full relative">
-          <h2>This is the GitHub for {name}</h2>
+          <h2>This is the GitHub Stats for {name}</h2>
           <GithubProfile username={name} />
         </div>
         <p>

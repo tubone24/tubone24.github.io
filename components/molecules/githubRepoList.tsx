@@ -57,7 +57,7 @@ export default class GitHubRepoList extends Component<Props, IState> {
   render(props: Props, state: IState) {
     console.log(state.results)
     return (
-        <div class="container mx-auto">
+        <div class="container mx-auto space-y-10">
           {state.results.map((result, index) => (
             <GithubRepoCard htmlUrl={result.html_url} description={result.description} fullName={result.full_name}
                             stargazersCount={result.stargazers_count} index={index + 1} updatedAt={result.updated_at}/>

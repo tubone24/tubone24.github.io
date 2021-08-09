@@ -15,7 +15,13 @@ const Header = () => (
           href="/user/tubone24"
           class="hover:underline ml-4"
         >
-          GitHub Stats
+          Stats
+        </a>
+        <a
+          href="/mostpopular"
+          class="hover:underline ml-4"
+        >
+          Most Stargazers
         </a>
       </div>
       <div class="mt-2">
