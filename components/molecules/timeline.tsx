@@ -88,7 +88,25 @@ const Timeline = () => (
       <div
         class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
       >
-        <h3 class="font-semibold text-lg mb-1">FullStack Developer (EventHub)</h3>
+        <h3 class="font-semibold text-lg mb-1">FullCycle Developer (EventHub)</h3>
+        <p class="leading-tight text-justify">
+          Developing an event platform using React, Nest.js (TypeScript), and AWS.
+        </p>
+      </div>
+    </div>
+    <div class="flex md:contents">
+      <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+        <div class="h-full w-6 flex items-center justify-center">
+          <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+        </div>
+        <div
+          class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+        ></div>
+      </div>
+      <div
+        class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+      >
+        <h3 class="font-semibold text-lg mb-1">FullCycle Developer & Team Manager (EventHub)</h3>
         <p class="leading-tight text-justify">
           Developing an event platform using React, Nest.js (TypeScript), and AWS.
         </p>
