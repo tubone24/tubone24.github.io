@@ -26,10 +26,26 @@ const Header = () => (
       </div>
       <div class="mt-2">
         <a
-          href="https://github.com/tubone24"
-          class="hover:underline"
+          href="https://blog.tubone-project24.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:underline ml-4"
         >
-          View on GitHub
+          Blog
+        </a>
+        <a
+          href="https://portfolio.tubone-project24.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:underline ml-4"
+        >
+          Portfolio
+        </a>
+        <a
+          href="https://github.com/tubone24"
+          class="hover:underline ml-4"
+        >
+          GitHub
         </a>
       </div>
     </div>
